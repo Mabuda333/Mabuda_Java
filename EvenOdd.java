@@ -1,8 +1,10 @@
+import java.util.Scanner;
 public class EvenOdd {
 
     public static void main(String [] args) {
-
-        int a=5;
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter the number");
+        int a=sc.nextInt();
         
         if(a%2==0){
             System.out.println("a is a Even number");
